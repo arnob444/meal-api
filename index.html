@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Cart Search</title>
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Search for Food Carts</h1>
+    <div class="search-container">
+      <input
+        type="text"
+        id="search-bar"
+        placeholder="Type to search for food carts..."
+        autocomplete="off"
+      />
+    </div>
+    <div id="food-carts" class="food-carts"></div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal" class="close-button">&times;</span>
+      <img id="modal-food-image" src="" alt="Food Image" />
+      <h2 id="food-name"></h2>
+      <h3>Ingredients:</h3>
+      <ul id="ingredients-list"></ul>
+    </div>
+  </div>
+  
+
+  <script src="project.js"></script>
+</body>
+</html>
